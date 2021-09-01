@@ -1,5 +1,7 @@
 package ru.sber.qa
 
+import ru.sber.qa.CertificateRequest
+
 /**
  * Готовая справка.
  */

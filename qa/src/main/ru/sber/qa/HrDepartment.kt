@@ -1,5 +1,6 @@
 package ru.sber.qa
 
+import ru.sber.qa.CertificateRequest
 import java.time.Clock
 import java.time.DayOfWeek
 import java.time.LocalDateTime
