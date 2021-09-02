@@ -25,7 +25,7 @@ open class Room(val name: String, val size: Int) {
 
 class TownSquare: Room("Town Square", 1000) {
 
-    override fun load() = "It's kinda big {$name}..."
+    final override fun load() = "It's kinda big {$name}..."
 
     override val dangerLevel = super.dangerLevel - 3
 }

@@ -33,7 +33,7 @@ abstract class Monster(val name: String,
                        override var healthPoints: Int): Fightable {
 
     override fun attack(opponent: Fightable): Int {
-        opponent.healthPoints - damageRoll
+        opponent.healthPoints = opponent.healthPoints - damageRoll
         return damageRoll
     }
 }
